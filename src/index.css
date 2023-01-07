@@ -1,17 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;700&family=Noto+Sans:wght@400;500;600;700;900&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Noto Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0px 100px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+/* h1,
+h2,
+h3 {
+  font-family: "Lexend Deca", sans-serif;
+} */
 
 /* ========== MEDIA QUERIES (TABLET DEVICE) ========== */
 @media only screen and (max-width: 1024px) {

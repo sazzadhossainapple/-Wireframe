@@ -6,7 +6,7 @@ import { FaBars } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <nav className="header-container">
+    <nav>
       <div>
         <img src={Logo} alt="" />
       </div>

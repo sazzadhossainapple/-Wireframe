@@ -3,16 +3,18 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 0rem;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 ul {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.8rem;
 }
 
 ul li {
   list-style: none;
+  font-weight: 500;
 }
 
 ul li a {
@@ -26,7 +28,7 @@ ul li a:hover {
 .btn {
   background-color: #525ded;
   color: #ffffff;
-  border: none;
+  border: 1px solid #525ded;
 }
 .mobile-icon {
   display: none;

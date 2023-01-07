@@ -1,0 +1,53 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #747474;
+}
+ul li a:hover {
+  color: #000000;
+}
+.btn {
+  background-color: #525ded;
+  color: #ffffff;
+  border: none;
+}
+.mobile-icon {
+  display: none;
+}
+
+/* ========== MEDIA QUERIES (TABLET DEVICE) ========== */
+@media only screen and (max-width: 1024px) {
+  ul {
+    display: none;
+  }
+  .mobile-icon {
+    display: flex;
+  }
+}
+
+/* ========== MEDIA QUERIES (MOBILE DEVICE) ========== */
+@media only screen and (max-width: 640px) {
+  ul {
+    display: none;
+  }
+  .mobile-icon {
+    display: flex;
+  }
+}

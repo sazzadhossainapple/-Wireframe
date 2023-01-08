@@ -1,0 +1,98 @@
+.ourMission-container {
+  margin-top: 5rem;
+  position: relative;
+}
+
+.background-Img {
+  position: absolute;
+  top: 2rem;
+  height: 350px;
+}
+
+/* vedio watch*/
+.watch-vedio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  color: #525ded;
+}
+.watch-content p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.vedio-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  border: 2px solid #525ded;
+}
+.img1 {
+  position: absolute;
+  top: 5rem;
+  left: 20rem;
+}
+
+/* title content*/
+
+.title-content {
+  width: 53%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3.1rem;
+  text-align: center;
+}
+.title-content h2 {
+  font-size: 1.7rem;
+  color: #000000;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+.title-content h2 span {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.5rem;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: #ffa500;
+}
+
+.title-content p {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #adadad;
+}
+
+/*our mission*/
+
+.our-mission {
+  margin-top: 6rem;
+}
+
+.our-mission-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5.5rem;
+}
+.our-mission-img {
+  height: 40px;
+  width: 40px;
+}
+.our-mission-title {
+  font-size: 1.4rem;
+  margin-bottom: 0rem;
+}
+.our-mission-dec {
+  font-size: 17px;
+  color: #747474;
+  margin-top: 0.6rem;
+  margin-bottom: 0rem;
+}
+
+.our-mission-btn {
+  font-size: 1.3rem;
+  color: #ffa500;
+  margin-top: 1rem;
+}

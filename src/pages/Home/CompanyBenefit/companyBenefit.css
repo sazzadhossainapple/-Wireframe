@@ -1,0 +1,90 @@
+.company-benefit-container {
+  position: relative;
+}
+
+.company-benefit-container .img1 {
+  position: absolute;
+  top: 1rem;
+  left: 12rem;
+}
+.company-benefit-container .img2 {
+  position: absolute;
+  top: 2rem;
+  left: 12rem;
+}
+
+.company-img3 {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.company-img4 {
+  position: absolute;
+  top: 57rem;
+  left: 37rem;
+}
+.company-img5 {
+  position: absolute;
+  top: 54.5rem;
+  right: 5rem;
+}
+
+/*company benefit content*/
+
+.company-benefit-content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8rem;
+}
+
+.conpany-contnet-text h3 {
+  font-size: 1.3rem;
+  color: #333333;
+  font-weight: 600;
+}
+
+.conpany-contnet-text p {
+  font-size: 1.3rem;
+  color: #525ded;
+  font-weight: 500;
+}
+.card-items-1 {
+  margin-top: 6rem;
+}
+.card-items-3 {
+  margin-top: 12rem;
+}
+.card-items-4 {
+  margin-top: 7rem;
+}
+.card-img {
+  display: flex;
+  justify-content: center;
+}
+.card-title {
+  margin-top: 2rem;
+}
+.card-text {
+  font-size: 1.2rem;
+  color: #adadad;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #525ded;
+  margin-bottom: 0rem;
+  cursor: pointer;
+}
+.arrow p {
+  font-size: 1.3rem;
+}
+
+.text-company {
+  margin-top: 3rem;
+  margin-bottom: 0rem;
+}

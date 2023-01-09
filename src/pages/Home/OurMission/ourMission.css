@@ -96,3 +96,27 @@
   color: #ffa500;
   margin-top: 1rem;
 }
+
+/* ========== MEDIA QUERIES (TABLET DEVICE) ========== */
+@media only screen and (max-width: 1024px) {
+}
+
+/* ========== MEDIA QUERIES (MOBILE DEVICE) ========== */
+@media only screen and (max-width: 640px) {
+  .watch-vedio {
+    display: flex;
+    flex-direction: column;
+  }
+  .our-mission-items {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .mission-img {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .our-mission-btn {
+    text-align: center;
+  }
+}

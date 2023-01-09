@@ -1,0 +1,22 @@
+.blog-company-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+.blog-company-img {
+  border: 2px solid #525ded;
+  padding: 1.2rem;
+  border-radius: 0.3rem;
+}
+.blog-company-text h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.blog-company-text p {
+  font-size: 1.2rem;
+  color: #525ded;
+  margin-top: 0.1rem;
+  font-weight: 600;
+}

@@ -81,7 +81,9 @@ const OurMission = () => {
         <div className="our-mission-items">
           {ourMissions.map((ourMission) => (
             <div key={ourMission.id}>
-              <img className="our-mission-img" src={ourMission.img} alt="" />
+              <div className="mission-img">
+                <img className="our-mission-img" src={ourMission.img} alt="" />
+              </div>
               <h3 className="our-mission-title">{ourMission.title}</h3>
               <p className="our-mission-dec">{ourMission.dec}</p>
               <p className="our-mission-btn">{ourMission.button}</p>

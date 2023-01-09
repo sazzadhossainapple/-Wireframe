@@ -3,8 +3,10 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <p>Varaluae 2021 C All Right Reserved</p>
+    <div className="footer">
+      <p>
+        Varaluae 2021 <span>C</span> All Right Reserved
+      </p>
     </div>
   );
 };

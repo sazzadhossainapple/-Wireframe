@@ -112,3 +112,19 @@
   border-top-left-radius: 0rem;
   border-bottom-left-radius: 0rem;
 }
+
+/* ========== MEDIA QUERIES (TABLET DEVICE) ========== */
+@media only screen and (max-width: 1024px) {
+}
+
+/* ========== MEDIA QUERIES (MOBILE DEVICE) ========== */
+@media only screen and (max-width: 640px) {
+  .search-field {
+    display: flex;
+    justify-content: center;
+  }
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+  }
+}

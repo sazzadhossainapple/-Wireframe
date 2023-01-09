@@ -166,7 +166,9 @@ const AffordablePricing = () => {
               </div>
             </div>
 
-            <Button classes="pricing-btn">{pricingData.button}</Button>
+            <div className="pricing-btn-text">
+              <Button classes="pricing-btn">{pricingData.button}</Button>
+            </div>
           </div>
         ))}
       </div>

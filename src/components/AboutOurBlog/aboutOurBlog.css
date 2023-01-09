@@ -1,0 +1,8 @@
+.aboutOurBlog {
+  border-left: 7px solid #525ded;
+}
+.aboutOurBlog h2 {
+  font-size: 1.3rem;
+  padding: 0 1.5rem;
+  font-weight: 700;
+}

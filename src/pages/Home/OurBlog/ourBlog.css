@@ -1,0 +1,140 @@
+.blog-container {
+  margin-top: 7rem;
+  position: relative;
+}
+
+.blog-img1 {
+  position: absolute;
+  left: 14rem;
+  top: -6rem;
+}
+.blog-img2 {
+  position: absolute;
+  left: 24rem;
+  top: 22rem;
+}
+.blog-img3 {
+  position: absolute;
+  right: 30rem;
+  top: 37rem;
+}
+.blog-img4 {
+  position: absolute;
+  left: 29rem;
+  top: 18rem;
+}
+.blog-img5 {
+  position: absolute;
+  left: -5rem;
+  top: 1.4rem;
+}
+
+/* blog content*/
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20rem;
+  margin-top: 11rem;
+}
+.blog-contnet {
+  margin: 2.5rem 0;
+}
+
+/*client comment*/
+.clinets {
+  margin: 2rem 0rem;
+  position: relative;
+}
+
+.client-commnet {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.clinet-info {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1px;
+}
+.line {
+  border: 2px solid #525ded;
+  width: 4rem;
+}
+.client-img {
+  display: flex;
+  border: 2px solid #525ded;
+  padding: 0.5rem;
+  border-radius: 50%;
+  margin-top: 1.2rem;
+}
+.commnet-text {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: -2rem;
+}
+.clinet-name {
+  font-size: 1.2rem;
+}
+.comment-desc {
+  font-size: 1.3rem;
+}
+.clone {
+  font-weight: 900;
+}
+
+/* service*/
+
+.service-content {
+  padding-right: 8rem;
+}
+.service-info {
+  margin-top: 2.7rem;
+}
+.service-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+}
+.service-desc {
+  font-size: 1.2rem;
+  color: #adadad;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+/*address*/
+.address {
+  margin-top: 2.5rem;
+}
+.subscribe-now {
+  display: flex;
+  margin-top: 1.4rem;
+}
+
+.subscribe-now input {
+  font-size: 1.2rem;
+  padding: 1.5rem 3rem;
+  width: 60%;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 0px;
+}
+.subscribe-now input::placeholder {
+  font-size: 1.2rem;
+  color: #adadad;
+}
+.subscribe-now input:focus {
+  outline: none;
+}
+
+/*social-icon*/
+.social {
+  position: relative;
+}
+.social-icon {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
